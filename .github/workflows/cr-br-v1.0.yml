@@ -14,6 +14,7 @@ jobs:
     - name: gloabl user id
       run: git config --global user.name "zabarishi"
     - name: curl git  
-      run: curl -u "username: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" https://github.com/zabarishi/WWWv1.0
+      #run: curl -u "username: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" https://github.com/zabarishi/terraform-demo/tree/master
+      run: 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@github.com:zabarishi/WWWv1.0.git
     - name: create new branch
-      run: git checkout -b www/worktest    
+      run: git checkout -b www/worktest
