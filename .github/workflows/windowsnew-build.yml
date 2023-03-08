@@ -1,0 +1,9 @@
+name: create build
+on:
+ workflow_dispatch 
+jobs:
+  create_branch_job:
+    runs-on: windows-latest
+    steps:
+	 - name: Instal npm
+	   shell: call npm install
